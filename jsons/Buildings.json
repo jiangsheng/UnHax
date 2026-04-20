@@ -31,7 +31,8 @@
 		],
 		"culture": 5,
 		"uniques": [
-			"Provides a [UnHax Mode - Base] in your first [1] cities for free",
+			"Provides a [UnHax Mode - Base] in your first [1] cities for free",			
+			"May buy [UnHax Mode - Base] buildings for [0] [Gold] [in all cities]",
 			"Can only be built [in capital]",
 			"Only available <in cities without a [UnHax Mode - Base]>",
 			"Only available <after adopting [Legalism]>",
