@@ -5,7 +5,7 @@
 		"uniques": [
 			"[+2 Production, +2 Food, +2 Gold, +1 Faith] from every [Coast]", 
 			"[+2 Production, +2 Food, +2 Gold, +1 Faith] from every [Ocean]", 
-			"+[50]% Strength for units fighting in [Water] tiles"
+			"[All] units gain the [Tidal Connection Ability] promotion <upon turn start>"
 		]
 	},
 	
@@ -15,8 +15,7 @@
 		"uniques": [
 			"[+2 Food, +4 Faith] from every [Snow]", 
 			"[+2 Production, +4 Faith] from every [Tundra]", 
-			"+[50]% Strength for units fighting in [Snow] tiles", 
-			"+[50]% Strength for units fighting in [Tundra] tiles"
+			"[All] units gain the [The Frozen Mother Ability] promotion <upon turn start>"
 		]
 	},
 	
@@ -27,17 +26,17 @@
 			"[+7 Production, +7 Faith, +7 Science, +7 Gold] from every [Krakatoa]",
 			"[+7 Production, +7 Faith, +7 Science, +7 Culture] from every [Mount Fuji]",
 			"[+5 Gold, +5 Food, +5 Faith] from every [Desert]",
-			"+[50]% Strength for units fighting in [Desert] tiles"
+			"[All] units gain the [Scorching Saint Ability] promotion <upon turn start>"
 		]
-	}
+	},
 	
 	{
 		"name": "God-King",
 		"type": "Pantheon",
 		"uniques": [
-			"[+5 Faith, +2 Gold, +2 Food, +2 Production, +2 Happiness, +2 Culture, +2 Science] <in cities with a [Palace]> <before the [Modern era]>",
-			"[+10 Faith, +5 Gold, +5 Food, +5 Production, +5 Happiness, +5 Culture, +5 Science] <in cities with a [Palace]> <starting from the [Modern era]>",
-			"[+5 Faith, +5 Gold, +5 Food, +5 Production, +5 Happiness, +5 Culture, +5 Science] [in other cities] <starting from the [Modern era]>"
+			"[+5 Faith, +2 Gold, +2 Food, +2 Production, +2 Happiness, +2 Culture, +2 Science] from every [Palace] <before the [Modern era]>",
+			"[+10 Faith, +5 Gold, +5 Food, +5 Production, +5 Happiness, +5 Culture, +5 Science] from every [Palace] <starting from the [Modern era]>",
+			"[+5 Faith, +5 Gold, +5 Food, +5 Production, +5 Happiness, +5 Culture, +5 Science] [in all cities connected to capital] <starting from the [Modern era]>"
 		]
 	},
 	
@@ -47,7 +46,7 @@
 		"uniques": [
 			"When declaring friendship, both parties gain a [80]% boost to great person generation", 
 			"Resting point for Influence with City-States following this religion [+25]", 
-			"[+100]% Natural religion spread [in foreign cities]",
+			"[+100]% Natural religion spread [in foreign cities]"
 		]
 	},
 	
@@ -55,12 +54,14 @@
 		"name": "Prophet's Leadership",
 		"type": "Founder",
 		"uniques": [
-			"[+60]% Spread Religion Strength <for [Great Prophet] units>", 
-			"[+60]% Spread Religion Strength <for [Missionary] units>", 
-			"[+10]% Spread Religion Strength <for [Great Prophet] units> <starting from the [Industrial era]>", 
-			"[+10]% Spread Religion Strength <for [Missionary] units> <starting from the [Industrial era]>", 
+			"[Great Prophet] units gain the [Prophet's Leadership I] promotion <upon turn start>",
+			"[Missionary] units gain the [Prophet's Leadership I] promotion <upon turn start>",
+			"[Great Prophet] units gain the [Prophet's Leadership II] promotion <upon turn start> <starting from the [Industrial era]>",
+			"[Missionary] units gain the [Prophet's Leadership II] promotion <upon turn start> <starting from the [Industrial era]>",
 			"[+7 Faith] <before the [Industrial era]>", 
-			"[+6 Culture, +9 Faith] <starting from the [Industrial era]>"
+			"[+6 Culture, +9 Faith] <starting from the [Industrial era]>",
+			"Only available <if [Civ V - Gods & Kings] is enabled>",
+			"Only available <if [RekMod] is enabled>"
 		]
 	},
 	
@@ -79,9 +80,9 @@
 		"uniques": [
 			"[+3 Faith, +3 Happiness, +3 Gold, +3 Culture] from every [Gold Ore]", 
 			"[+100]% Natural religion spread [in all cities]",
-			"[+10 Gold]",
-			"[+5 Gold] <after discovering [Theology]>",
-			"[+5 Gold] <after discovering [Printing Press]>",
+			"[+10 Gold] [in capital]",
+			"[+5 Gold] [in capital] <after discovering [Theology]>",
+			"[+5 Gold] [in capital] <after discovering [Printing Press]>",
 		]
 	},
 	
@@ -111,9 +112,9 @@
 		"type": "Enhancer",
 		"uniques": [
 			"Religion naturally spreads to cities [+7] tiles away", 
-			"[+77]% Natural religion spread [in all cities]", 
-			"[+4] Movement for all [Great Prophet] units", 
-			"[+4] Movement for all [Missionary] units"
+			"[+77]% Natural religion spread [in all cities]", 			
+			"[Great Prophet] units gain the [Widespread Preachers Ability] promotion <upon turn start>",
+			"[Missionary] units gain the [Widespread Preachers Ability] promotion <upon turn start>"			
 		]
 	},
 	

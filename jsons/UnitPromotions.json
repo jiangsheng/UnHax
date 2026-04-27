@@ -1,5 +1,46 @@
 [
 	{
+		"name": "Tidal Connection Ability",
+		"uniques": [
+			"[+50]% Strength <when fighting in [Water] tiles>"
+		]
+	},
+	{
+    "name": "Widespread Preachers Ability",
+		"uniques": [
+			"[+4] Movement"
+		],
+		"unitTypes": ["Civilian"]
+	},
+	{
+    "name": "Prophet's Leadership I",
+		"uniques": [
+			"[+60]% Spread Religion Strength"
+		],
+		"unitTypes": ["Civilian"]
+	},
+	{
+    "name": "Prophet's Leadership II",
+		"uniques": [
+			"[+10]% Spread Religion Strength"
+		],
+		"unitTypes": ["Civilian"]
+	},
+	
+	{
+		"name": "The Frozen Mother Ability",
+		"uniques": [
+			"[+50]% Strength <when fighting in [Snow] tiles>",
+			"[+50]% Strength <when fighting in [Tundra] tiles>"
+		]
+	},
+	{
+		"name": "Scorching Saint Ability",
+		"uniques": [
+			"[+50]% Strength <when fighting in [Desert] tiles>"
+		]
+	},
+	{
 		"name": "Mastery of War",
 		"uniques": [
 			"[+110]% Strength <when attacking>",
@@ -40,7 +81,7 @@
 	{
 		"name": "Civilian Assistance",
 		"uniques": [
-			"All adjacent units heal [60] extra HP when healing",
+			"All adjacent units heal [+60] HP when healing",
 			"[+15]% Strength bonus for [Military] units within [3] tiles"
 		]
 	},
@@ -50,7 +91,8 @@
 		"uniques": [
 			"[+2] Sight",
 			"[+3] Movement",
-			"Normal vision when embarked",
+			"[+1] Sight <for [Embarked] units>",
+			"[+1] Sight <when [Embarked]>",
 			"Ignores terrain cost",
 			"Can pass through impassable tiles"
 		]

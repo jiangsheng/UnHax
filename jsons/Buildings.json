@@ -20,7 +20,7 @@
 		"name": "UnHax Mode - Access"
 		"civilopediaText": [
 		    {
-				"text": "The gateway of UnHax, it allows every players, AI included, to access the extreme amount of cheats that cannot be accessed immediately."
+				"text": "The gateway of UnHax, it allows every players, AI included, to access the extreme amount of cheats that cannot be accessed immediately.",
 				"starred": true
 		    },
 			{
@@ -33,14 +33,14 @@
 		"uniques": [
 			"Provides a [UnHax Mode - Base] in your first [1] cities for free",			
 			"May buy [UnHax Mode - Base] buildings for [0] [Gold] [in all cities]",
-			"Can only be built [in capital]",
+			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [UnHax Mode - Base]>",
 			"Only available <after adopting [Legalism]>",
 			"Destroyed when the city is captured",
 			"Triggers a global alert upon completion",
-			"Cannot be bought",
+			"Cannot be purchased",
 			"Unsellable"
-		]
+		],
 		"cost": 696969420,
 		"hurryCostModifier": -100
 	},
@@ -88,9 +88,9 @@
 			"All newly-trained [{non-air} {Military}] units [in this city] receive the [Home Sweet Home] promotion",
 			"All newly-trained [{Fighter} {Military}] units [in this city] receive the [Home Sweet Home] promotion",
 			"All newly-trained [{Bomber} {Military}] units [in this city] receive the [Home Sweet Home] promotion",
-			"New [Military] units start with [420] Experience [in all cities]",
-			"Damage is ignored when determining unit Strength <for [All] units>",
-			"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.",
+			"New [Military] units start with [420] XP [in all cities]",
+			"No damage penalty for wounded units <for [All] units>",
+			//"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.",
 			"Provides a [UnHax Mode - Military] in your first [5] cities for free",
 			"[{Fighter} {Military}] units gain the [Rejuvenation] promotion",
 			"[{Bomber} {Military}] units gain the [Rejuvenation] promotion",
@@ -98,7 +98,7 @@
 			"[{Land} {Civilian}] units gain the [Enhanced Vision] promotion",
 			"[{Water} {Civilian}] units gain the [Better Wayfinding] promotion",
 			"Destroyed when the city is captured",
-			"Can only be built [in capital]",
+			"Can only be built <in [in capital] cities>",
 			"Triggers a global alert upon completion",
 			"Unsellable",
 			"Unbuildable"
@@ -117,7 +117,7 @@
 				"text": "This is the Polytheistic variant of the twin Religion buildings. It provides nearly the same bonuses as the pre-v1.10 Religion building.",
 				"starred": true
 			}
-		]
+		],
 		"faith": 1000,
 		"uniques": [
 			"[2] free [Great Prophet] units appear",
@@ -131,11 +131,11 @@
 			"May buy [Great Merchant] units for [100] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([50])",
 			"May buy [Great Engineer] units for [100] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([50])",
 			"May buy [Great General] units for [100] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([50])",
-			"May buy [Great Spacefarer] units for [100] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([50])", // Future Expansion
-			"[Faith] cost of purchasing [Civilian] units [-75]%"
+			//"May buy [Great Spacefarer] units for [100] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([50])", // Future Expansion
+			"[Faith] cost of purchasing [Civilian] units [-75]%",
 			"[+1000 Faith] [in all cities]",
 			"Only available <in cities without a [UnHax Mode - Monotheistic Religion]>",
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"Destroyed when the city is captured",
 			"Unbuildable",
 			"Unsellable"
@@ -169,11 +169,11 @@
 			"May buy [Great Merchant] units for [100] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([50])",
 			"May buy [Great Engineer] units for [100] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([50])",
 			"May buy [Great General] units for [100] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([50])",
-			"May buy [Great Spacefarer] units for [100] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([50])", // Future Expansion
-			"[Faith] cost of purchasing [Civilian] units [-75]%"
+			//"May buy [Great Spacefarer] units for [100] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([50])", // Future Expansion
+			"[Faith] cost of purchasing [Civilian] units [-75]%",
 			"[+1000 Faith] [in all cities]",
 			"Only available <in cities without a [UnHax Mode - Polytheistic Religion]>",
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"Destroyed when the city is captured",
 			"Unbuildable",
 			"Unsellable"
@@ -199,7 +199,7 @@
 			"Engineer": 5
 		},
 		"uniques": [
-			"New [Military] units start with [420] Experience [in this city]",
+			"New [Military] units start with [420] XP [in this city]",
 			"No movement cost to pillage <for [Melee] units>",
 			"Great General provides double combat bonus",
 			"[200]% XP gained from combat <for [Military] units>",
@@ -250,27 +250,27 @@
 			"[+120]% [Food] [in all cities]",
 			"[+120]% [Faith] [in all cities]",
 			"[+120]% [Happiness] [in all cities]",
-			"[-75]% tile improvement construction time",
+			"[-75]% construction time for [All] improvements",
 			"[200]% Golden Age length",
 			"[+50]% growth [in all cities]",
 			"[+150]% Strength for cities <when defending>",
 			"Population loss from nuclear attacks [-300]% [in all cities]",
-			"[-100]% maintenance cost for buildings [in all cities]",
+			"[-100]% maintenance cost for [all] buildings [in all cities]",
 			"[100]% maintenance on road & railroads",
-			"Defense bonus when embarked <for [All] units>",
+			"[+100]% Strength <when defending> <when [Embarked]> <for [All] units>",
 			"[{non-air} {Military}] units gain the [Capture Master] promotion",
 			"[{Aircraft} {Military}] units gain the [Capture Master] promotion",
 			"[{non-air} {Military}] units gain the [Quick Study] promotion",
 			"[{Fighter} {Military}] units gain the [Quick Study] promotion",
 			"[{Bomber} {Military}] units gain the [Quick Study] promotion",
 			"[{non-air} {Military}] units gain the [Pictish Courage] promotion",
-			"Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns.",
-			"Double quantity of [Horses] produced",
-			"Double quantity of [Iron] produced",
-			"Double quantity of [Coal] produced",
-			"Double quantity of [Oil] produced",
-			"Double quantity of [Aluminum] produced",
-			"Double quantity of [Uranium] produced",
+			"Can spend Gold to annex or puppet a City-State that has been your Ally for [5] turns",
+			"[+100]% [Horses] resource production",
+			"[+100]% [Iron] resource production",
+			"[+100]% [Coal] resource production",
+			"[+100]% [Oil] resource production",
+			"[+100]% [Aluminum] resource production",
+			"[+100]% [Uranium] resource production",
 			"[+100]% Yield from every [Natural Wonder]",
 			"Reveals the entire map",
 			"Destroyed when the city is captured",

@@ -34,7 +34,7 @@
 		"promotions": [
 			"Founder's Frontier",
 			"Woodsman"
-		]
+		],
 		"hurryCostModifier": 700
 	},
 	
@@ -42,8 +42,8 @@
 		"name": "Great Artist",
 		"unitType": "Civilian",
 		"uniques": [
-			"Can start an [8]-turn golden age", 
-			"Can construct [Landmark]", 
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>", 
+			"Can instantly construct a [Landmark] improvement <by consuming this unit>", 
 			"Great Person - [Culture]", 
 			"Can move immediately once bought", 
 			"Unbuildable", 
@@ -57,7 +57,7 @@
 		"unitType": "Civilian",
 		"uniques": [
 			"Can hurry technology research", 
-			"Can construct [Academy]", 
+			"Can instantly construct a [Academy] improvement <by consuming this unit>", 
 			"Great Person - [Science]", 
 			"Can move immediately once bought", 
 			"Unbuildable", 
@@ -71,7 +71,7 @@
 		"unitType": "Civilian",
 		"uniques": [
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
-			"Can construct [Customs house]", 
+			"Can instantly construct a [Customs house] improvement <by consuming this unit>", 
 			"Great Person - [Gold]", 
 			"Can move immediately once bought", 
 			"Unbuildable", 
@@ -85,7 +85,7 @@
 		"unitType": "Civilian",
 		"uniques": [
 			"Can speed up construction of a building", 
-			"Can construct [Manufactory]", 
+			"Can instantly construct a [Manufactory] improvement <by consuming this unit>", 
 			"Great Person - [Production]", 
 			"Can move immediately once bought", 
 			"Unbuildable", 
@@ -98,8 +98,9 @@
 		"name": "Great Prophet",
 		"unitType": "Civilian",
 		"uniques": [
-			"Can construct [Holy site]", 
-			"Can [Spread Religion] [4] times",
+			"Can instantly construct a [Holy site] improvement <by consuming this unit>", 
+			"Can Spread Religion <[4] times> <after which this unit is consumed>",
+			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
 			"Removes other religions when spreading religion", 
 			"May found a religion", 
 			"May enhance a religion", 
@@ -109,7 +110,7 @@
 			"Can move immediately once bought", 
 			"Unbuildable", 
 			"Religious Unit", 
-			"Hidden when religion is disabled", 
+			"Only available <when religion is enabled>", 
 			"Takes your religion over the one in their birth city"
 		],
 		"movement": 2,
@@ -120,9 +121,9 @@
 		"name": "Great General",
 		"unitType": "Civilian",
 		"uniques": [
-			"Can start an [8]-turn golden age", 
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>", 
 			"[+35]% Strength bonus for [Military] units within [2] tiles", 
-			"Can construct [Citadel]",
+			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Great Person - [War]", 
 			"Can move immediately once bought", 
 			"Unbuildable", 
@@ -138,11 +139,11 @@
 		"replaces": "Great General",
 		"strength": 20,
 		"uniques": [
-			"Can start an [8]-turn golden age",
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
 			"[+35]% Strength bonus for [Military] units within [2] tiles", 
 			"All adjacent units heal [+30] HP when healing", 
 			"[+15] HP when healing", 
-			"Can construct [Citadel]", 
+			"Can instantly construct a [Citadel] improvement <by consuming this unit>", 
 			"Great Person - [War]", 
 			"Can move immediately once bought",
 			"Unbuildable", 
@@ -163,9 +164,9 @@
 		"cost": 180,
 		"upgradesTo": "Infantry",
 		"requiredTech": "Rifling",
-		"obsoleteTech": "Plastics",
+		"obsoleteTech": "Radar",
 		"uniques": [
-			"May withdraw before melee ([80]%)",
+			"Withdraws before melee combat <with [80]% chance>",
 			"[+60]% Strength <after discovering [Replaceable Parts]>",
 		],
 		"promotions": ["Woodsman", "Shock I", "Drill I", "Mobility"],
