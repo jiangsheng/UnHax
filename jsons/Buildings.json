@@ -38,7 +38,7 @@
 			"Only available <after adopting [Legalism]>",
 			"Destroyed when the city is captured",
 			"Triggers a global alert upon completion",
-			"Cannot be purchased",
+			
 			"Unsellable"
 		],
 		"cost": 696969420,
